@@ -1,0 +1,99 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-10-13T13:34:15.752283",
+  "memories": [
+    {
+      "id": "mem_20261013133415_4583ef",
+      "key": "active_customers_excludes",
+      "category": "named_filter",
+      "description": "active customers excludes cancelled accounts",
+      "formal_expression": "account_status != 'Cancelled'",
+      "tags": [
+        "active_customers_excludes"
+      ],
+      "created_at": "2026-10-13T13:34:15.257428",
+      "updated_at": "2026-10-13T13:34:15.257428",
+      "version": 1,
+      "status": "active",
+      "superseded_by_id": null,
+      "source_turn": "remember that active customers excludes cancelled accounts",
+      "metadata": {}
+    },
+    {
+      "id": "mem_20261013133415_ac02d5",
+      "key": "user_rule",
+      "category": "domain_fact",
+      "description": "remember that active customers excludes cancelled accounts",
+      "formal_expression": null,
+      "tags": [
+        "account_status",
+        "is_churned",
+        "customer_feedback_notes",
+        "contract_length_months",
+        "user_rule",
+        "nps_score",
+        "region",
+        "customer_id",
+        "plan_tier",
+        "monthly_usage_hours",
+        "support_tickets",
+        "signup_date",
+        "mrr"
+      ],
+      "created_at": "2026-10-13T13:34:15.266662",
+      "updated_at": "2026-10-13T13:34:15.751707",
+      "version": 1,
+      "status": "superseded",
+      "superseded_by_id": "mem_20261013133415_b1ddb3",
+      "source_turn": null,
+      "metadata": {}
+    },
+    {
+      "id": "mem_20261013133415_1c29b1",
+      "key": "active_customers",
+      "category": "named_filter",
+      "description": "account_status NOT IN ('Cancelled', 'Paused')",
+      "formal_expression": null,
+      "tags": [
+        "active_customers",
+        "account_status"
+      ],
+      "created_at": "2026-10-13T13:34:15.744915",
+      "updated_at": "2026-10-13T13:34:15.744915",
+      "version": 1,
+      "status": "active",
+      "superseded_by_id": null,
+      "source_turn": "define active customers as account_status NOT IN ('Cancelled', 'Paused')",
+      "metadata": {}
+    },
+    {
+      "id": "mem_20261013133415_b1ddb3",
+      "key": "user_rule",
+      "category": "domain_fact",
+      "description": "define active customers as account_status NOT IN ('Cancelled', 'Paused')",
+      "formal_expression": null,
+      "tags": [
+        "account_status",
+        "is_churned",
+        "customer_feedback_notes",
+        "contract_length_months",
+        "user_rule",
+        "nps_score",
+        "region",
+        "customer_id",
+        "plan_tier",
+        "monthly_usage_hours",
+        "support_tickets",
+        "signup_date",
+        "mrr"
+      ],
+      "created_at": "2026-10-13T13:34:15.751707",
+      "updated_at": "2026-10-13T13:34:15.751707",
+      "version": 2,
+      "status": "active",
+      "superseded_by_id": null,
+      "source_turn": null,
+      "metadata": {}
+    }
+  ]
+}
