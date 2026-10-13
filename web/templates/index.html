@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autonomous Tabular Data Analysis Agent</title>
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <!-- Marked.js for markdown rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Top Navigation Header -->
+        <header class="app-header">
+            <div class="logo-area">
+                <div class="logo-icon">📊</div>
+                <div>
+                    <h1>DataAgent <span class="badge">Autonomous</span></h1>
+                    <p class="subtitle">Multi-Tool Tabular Analytics with Persistent Memory</p>
+                </div>
+            </div>
+
+            <div class="header-controls">
+                <!-- Dataset Selector Dropdown / Buttons -->
+                <div class="sample-pills">
+                    <span class="pill-label">Samples:</span>
+                    <button class="pill-btn active" onclick="loadSample('saas_churn.csv')">SaaS Churn</button>
+                    <button class="pill-btn" onclick="loadSample('ecommerce_sales.csv')">E-Commerce</button>
+                    <button class="pill-btn" onclick="loadSample('employee_attrition.csv')">HR Attrition</button>
+                </div>
+
+                <!-- File Upload Button -->
+                <label class="upload-btn" for="file-upload">
+                    <span>📁 Upload CSV/Excel</span>
+                    <input type="file" id="file-upload" accept=".csv,.xlsx,.xls,.parquet,.json" onchange="uploadCustomFile(event)">
+                </label>
+            </div>
+        </header>
+
+        <!-- Main Workspace Grid -->
+        <main class="main-layout">
+            <!-- Left Column: Interactive Chat Interface -->
+            <section class="chat-section">
+                <!-- Active Dataset Pill -->
+                <div class="dataset-status-bar" id="dataset-status-bar">
+                    <div class="status-indicator"></div>
+                    <span id="active-dataset-name">Loading dataset...</span>
+                    <span class="stat-tag" id="active-dataset-meta">0 rows • 0 cols</span>
+                </div>
+
+                <!-- Chat Messages Feed -->
+                <div class="messages-container" id="messages-container">
+                    <div class="message assistant-message welcome-card">
+                        <h3>👋 Welcome to the Autonomous Data Analysis Agent</h3>
+                        <p>I examine any tabular dataset using 9 specialized tools: schema profiling, inferential hypothesis testing, anomaly detection, driver importance, time trends, DuckDB SQL, interactive Plotly charts, and <strong>Hybrid Vector RAG</strong> for qualitative text search.</p>
+                        <p class="mt-2">I also retain <strong>persistent long-term memory</strong> with hybrid semantic retrieval and rollback across sessions. Teach me a definition or preference (e.g. <em>"remember that active customers excludes cancelled accounts"</em>) and I will apply it to future queries!</p>
+                        
+                        <div class="quick-prompts">
+                            <span class="quick-title">Try asking:</span>
+                            <button class="prompt-chip" onclick="setPrompt('Search feedback notes for pricing complaints and show how churn is affected')">🤖 Hybrid RAG Text Search</button>
+                            <button class="prompt-chip" onclick="setPrompt('Audit dataset health, missing values, and column skewness')">🔍 Profile Dataset Health</button>
+                            <button class="prompt-chip" onclick="setPrompt('What key drivers impact customer churn?')">🎯 Top Churn Drivers</button>
+                            <button class="prompt-chip" onclick="setPrompt('Is the difference in monthly usage between churned and active customers statistically significant?')">📊 Inferential t-Test</button>
+                            <button class="prompt-chip" onclick="setPrompt('Find extreme outliers and anomalies in usage hours and support tickets')">⚠️ Detect Anomalies</button>
+                            <button class="prompt-chip" onclick="setPrompt('Plot a scatter chart of monthly_usage_hours vs mrr')">📈 Generate Chart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Input Area -->
+                <div class="chat-input-area">
+                    <form id="chat-form" onsubmit="handleSendQuery(event)">
+                        <input type="text" id="query-input" placeholder="Ask a question about your data or teach a business rule..." autocomplete="off">
+                        <button type="submit" id="send-btn" class="send-btn">
+                            <span>Analyze</span>
+                            <span class="send-icon">➔</span>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Right Column: Inspector Tabs -->
+            <aside class="sidebar-section">
+                <div class="tabs-header">
+                    <button class="tab-btn active" onclick="switchTab('schema-tab')">📋 Schema & Health</button>
+                    <button class="tab-btn" onclick="switchTab('memory-tab')">🧠 Memory Store <span class="badge-count" id="memory-count">0</span></button>
+                    <button class="tab-btn" onclick="switchTab('tools-tab')">🛠️ Tool Registry</button>
+                </div>
+
+                <div class="tabs-content">
+                    <!-- Tab 1: Dataset Schema & Health -->
+                    <div id="schema-tab" class="tab-pane active">
+                        <div class="card-box">
+                            <div class="card-header">
+                                <h3>Column Dictionary & Dtypes</h3>
+                                <span class="refresh-link" onclick="fetchDatasetInfo()">↻ Refresh</span>
+                            </div>
+                            <div class="schema-list" id="schema-list">
+                                <p class="loading-text">Loading schema...</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 2: Persistent Memory Inspector -->
+                    <div id="memory-tab" class="tab-pane">
+                        <div class="card-box">
+                            <div class="card-header">
+                                <h3>🧠 Long-Term Business Memory</h3>
+                                <button class="small-btn danger" onclick="clearAllMemories()">Clear All</button>
+                            </div>
+                            <p class="tab-desc">Retained facts, formulas, and filters used by the agent to tailor analytical answers across sessions.</p>
+                            
+                            <div class="memory-items-list" id="memory-items-list">
+                                <p class="dim-text">No persistent memories saved yet.</p>
+                            </div>
+
+                            <!-- Manual Memory Form -->
+                            <div class="add-memory-card">
+                                <h4>+ Teach New Rule / Metric</h4>
+                                <div class="form-row">
+                                    <input type="text" id="mem-key" placeholder="Key (e.g. active_customers)">
+                                    <select id="mem-cat">
+                                        <option value="named_filter">Named Filter</option>
+                                        <option value="metric_definition">Metric Definition</option>
+                                        <option value="domain_fact">Domain Fact</option>
+                                        <option value="user_preference">User Preference</option>
+                                        <option value="correction">Correction</option>
+                                    </select>
+                                </div>
+                                <input type="text" id="mem-desc" placeholder="Rule Description (e.g. Excludes cancelled accounts)">
+                                <input type="text" id="mem-expr" placeholder="Formal SQL filter (e.g. account_status != 'Cancelled')">
+                                <button class="small-btn primary mt-2" onclick="saveManualMemory()">Save to Persistent Memory</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: Tools Registry -->
+                    <div id="tools-tab" class="tab-pane">
+                        <div class="card-box">
+                            <div class="card-header">
+                                <h3>9 Distinct Analytical Tools</h3>
+                            </div>
+                            <div class="tools-grid">
+                                <div class="tool-card">
+                                    <div class="tool-title">1. DatasetProfiler</div>
+                                    <div class="tool-desc">Audits missingness, data types, cardinality, skewness, and computes overall dataset health score.</div>
+                                </div>
+                                <div class="tool-card">
+                                    <div class="tool-title">2. StatisticalHypothesisTester</div>
+                                    <div class="tool-desc">Runs inferential Welch's t-test, Mann-Whitney U, ANOVA, Chi-Square, and correlation with exact p-values.</div>
+                                </div>
+                                <div class="tool-card">
+                                    <div class="tool-title">3. AnomalyOutlierDetector</div>
+                                    <div class="tool-desc">Tukey's IQR fences, Z-scores, and Scikit-learn Isolation Forest multivariate anomaly scoring.</div>
+                                </div>
+                                <div class="tool-card">
+                                    <div class="tool-title">4. MultivariateDriverAnalysis</div>
+                                    <div class="tool-desc">ML feature importance ranking (Random Forest / Ridge) and multicollinearity detection.</div>
+                                </div>
+                                <div class="tool-card">
+                                    <div class="tool-title">5. TimeSeriesTrendForecaster</div>
+                                    <div class="tool-desc">Resamples dates (daily/weekly/monthly), calculates rolling moving averages, CAGR, and trend projection.</div>
+                                </div>
+                                <div class="tool-card">
+                                    <div class="tool-title">6. SQLAndAggregationEngine</div>
+                                    <div class="tool-desc">DuckDB in-memory SQL execution directly on table <code>dataset</code> with read-only safety bounds.</div>
+                                </div>
+                                <div class="tool-card">
+                                    <div class="tool-title">7. VisualizationGenerator</div>
+                                    <div class="tool-desc">Builds Plotly interactive HTML charts and Matplotlib figures (bar, scatter, box, heatmap).</div>
+                                </div>
+                                <div class="tool-card">
+                                    <div class="tool-title">8. MemoryInspectorAndSetter</div>
+                                    <div class="tool-desc">Persists domain rules, metric definitions, and resolves conflicts with automatic versioning.</div>
+                                </div>
+                                <div class="tool-card" style="border-color: rgba(56, 189, 248, 0.4); background: rgba(56, 189, 248, 0.05);">
+                                    <div class="tool-title" style="color: #38bdf8;">9. SemanticKnowledgeAndTextRetriever</div>
+                                    <div class="tool-desc">Hybrid Vector RAG for qualitative text columns (feedback, notes, complaints) and metric correlation.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <!-- Chart Modal Viewer -->
+    <div id="chart-modal" class="modal-overlay" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <div class="modal-header">
+                <h3 id="modal-title">Interactive Chart</h3>
+                <button class="close-btn" onclick="closeModal()">×</button>
+            </div>
+            <div class="modal-body">
+                <iframe id="chart-iframe" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
