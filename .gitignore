@@ -1,0 +1,28 @@
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environments
+env/
+venv/
+.venv/
+ENV/
+.env
+*.env
+*.log
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Test Scratch
+test_scratch/
+data_artifacts/*.png
+data_artifacts/*.html
+!data_artifacts/.gitkeep
+
+# Local evaluator notes / private docs
+explanation.md

@@ -1,0 +1,251 @@
+customer_id,signup_date,plan_tier,mrr,monthly_usage_hours,support_tickets,nps_score,contract_length_months,region,account_status,is_churned,customer_feedback_notes
+CUST-1000,2023-04-13,Starter,51.2,30.8,7,3,12,North America,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1001,2024-03-11,Starter,49.75,23.0,0,9,1,EMEA,Cancelled,1,Frequent API timeout errors and slow customer support response.
+CUST-1002,2023-12-15,Enterprise,831.47,262.3,2,8,1,LATAM,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1003,2023-09-28,Starter,50.54,19.0,0,8,24,EMEA,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1004,2023-04-17,Professional,190.75,92.2,3,7,12,APAC,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1005,2023-03-13,Professional,193.43,86.1,3,6,12,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1006,2023-07-08,Starter,50.83,36.7,3,6,12,EMEA,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1007,2023-01-21,Enterprise,823.38,255.3,0,10,12,APAC,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1008,2023-04-13,Enterprise,798.16,260.3,1,10,1,North America,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1009,2023-05-02,Starter,49.29,20.9,7,5,1,APAC,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1010,2024-04-11,Professional,211.71,77.8,6,6,1,North America,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1011,2023-08-03,Starter,47.55,20.7,2,8,1,EMEA,Cancelled,1,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1012,2023-11-27,Starter,50.34,28.9,22,1,12,APAC,Cancelled,1,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1013,2024-04-03,Starter,48.5,20.8,1,8,1,EMEA,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1014,2023-03-29,Professional,196.83,97.2,0,9,1,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1015,2024-01-08,Professional,209.93,141.9,4,7,1,EMEA,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1016,2023-04-10,Starter,51.02,33.7,2,7,1,EMEA,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1017,2023-12-26,Starter,50.99,21.7,5,5,1,LATAM,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1018,2023-06-01,Enterprise,851.15,312.1,5,5,1,North America,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1019,2023-05-11,Starter,49.05,20.9,1,10,1,North America,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1020,2023-05-30,Starter,50.67,4.6,1,9,1,EMEA,Cancelled,1,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1021,2023-11-05,Professional,195.91,64.8,2,7,1,North America,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1022,2023-09-15,Enterprise,811.95,127.8,5,5,12,EMEA,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1023,2023-12-10,Starter,48.68,21.5,2,7,1,EMEA,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1024,2024-05-06,Professional,199.97,90.5,2,8,1,APAC,Cancelled,1,Frequent API timeout errors and slow customer support response.
+CUST-1025,2024-02-18,Professional,204.92,131.9,3,8,12,EMEA,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1026,2023-10-21,Starter,47.0,28.3,2,7,1,EMEA,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1027,2024-01-21,Professional,219.82,84.5,6,5,12,North America,Cancelled,1,Frequent API timeout errors and slow customer support response.
+CUST-1028,2023-07-11,Starter,46.54,33.3,2,8,1,North America,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1029,2024-03-19,Professional,186.92,34.7,2,8,1,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1030,2023-10-04,Professional,210.52,95.9,2,7,12,North America,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1031,2023-06-10,Professional,206.88,109.3,5,4,1,EMEA,Cancelled,1,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1032,2024-04-04,Starter,50.53,10.2,4,5,12,EMEA,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1033,2023-11-10,Enterprise,824.1,950.0,8,4,1,EMEA,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1034,2023-01-22,Starter,48.97,28.4,3,8,12,APAC,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1035,2023-09-10,Starter,46.8,20.8,2,7,1,LATAM,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1036,2023-08-24,Starter,49.19,31.3,3,7,1,APAC,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1037,2023-12-11,Professional,192.26,146.8,1,10,12,EMEA,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1038,2023-02-18,Professional,208.7,94.5,4,5,1,EMEA,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1039,2024-04-19,Starter,48.64,27.5,3,7,1,North America,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1040,2023-02-28,Professional,190.79,78.5,5,6,12,North America,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1041,2023-06-19,Starter,48.21,16.5,2,8,12,North America,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1042,2024-04-20,Professional,203.11,110.8,0,9,1,LATAM,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1043,2023-07-07,Starter,47.62,16.4,2,8,12,APAC,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1044,2024-04-08,Professional,190.82,91.8,3,7,24,North America,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1045,2023-09-28,Starter,49.6,20.2,19,1,12,EMEA,Cancelled,1,Pricing is too expensive for a small startup on Starter plan.
+CUST-1046,2023-07-09,Enterprise,808.79,268.7,1,10,1,APAC,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1047,2024-03-21,Starter,47.76,28.3,0,10,12,North America,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1048,2023-06-24,Starter,47.85,35.4,4,5,1,North America,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1049,2024-03-21,Starter,49.57,19.9,3,8,24,APAC,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1050,2023-02-20,Enterprise,741.15,223.8,3,7,1,North America,Cancelled,1,Pricing is too expensive for a small startup on Starter plan.
+CUST-1051,2023-12-30,Enterprise,742.77,181.3,1,10,1,North America,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1052,2023-02-24,Starter,47.24,20.6,3,7,12,EMEA,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1053,2023-09-01,Professional,196.88,99.4,4,5,1,APAC,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1054,2023-11-16,Enterprise,811.42,285.4,4,6,24,EMEA,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1055,2023-05-11,Professional,213.68,66.9,1,9,24,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1056,2024-04-29,Professional,207.53,111.7,5,5,12,North America,Paused,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1057,2023-11-03,Starter,48.61,38.6,6,4,1,EMEA,Cancelled,1,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1058,2023-05-15,Starter,48.95,29.1,0,10,12,EMEA,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1059,2023-01-21,Enterprise,758.95,352.6,4,7,1,APAC,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1060,2023-11-25,Enterprise,798.26,193.6,2,7,1,North America,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1061,2023-06-16,Professional,196.13,58.9,2,8,12,APAC,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1062,2023-10-01,Starter,49.79,7.2,3,8,1,North America,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1063,2024-01-23,Starter,46.97,40.0,1,8,1,North America,Cancelled,1,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1064,2023-03-30,Professional,204.17,106.4,0,10,24,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1065,2023-11-12,Enterprise,860.23,236.7,3,6,1,North America,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1066,2023-01-14,Enterprise,794.66,256.8,3,7,1,EMEA,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1067,2023-08-30,Professional,203.0,61.9,1,10,24,EMEA,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1068,2023-09-22,Professional,205.87,151.1,2,7,1,North America,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1069,2023-12-12,Starter,48.02,26.3,4,7,12,EMEA,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1070,2023-02-22,Starter,49.55,26.1,2,9,24,North America,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1071,2024-01-21,Enterprise,799.5,283.5,1,10,24,APAC,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1072,2023-12-06,Professional,199.97,102.0,0,10,12,LATAM,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1073,2023-04-02,Starter,47.11,27.2,1,8,1,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1074,2024-01-02,Starter,49.06,17.1,3,7,1,EMEA,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1075,2024-03-19,Professional,203.96,101.8,1,8,12,North America,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1076,2024-03-30,Starter,52.56,43.8,2,7,12,North America,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1077,2024-03-03,Starter,51.35,38.5,1,8,1,North America,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1078,2023-09-21,Professional,220.42,129.8,5,5,1,APAC,Cancelled,1,Pricing is too expensive for a small startup on Starter plan.
+CUST-1079,2024-03-06,Professional,191.36,77.2,1,10,1,EMEA,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1080,2023-02-04,Professional,207.68,65.3,5,6,1,North America,Cancelled,1,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1081,2023-07-25,Starter,49.45,23.7,1,10,12,APAC,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1082,2023-03-22,Professional,220.79,91.4,0,9,1,EMEA,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1083,2024-02-24,Starter,47.02,35.9,1,10,24,APAC,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1084,2023-02-19,Starter,46.94,8.1,3,7,12,EMEA,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1085,2023-12-26,Professional,193.04,128.2,3,8,1,EMEA,Cancelled,1,Frequent API timeout errors and slow customer support response.
+CUST-1086,2024-01-23,Professional,177.87,86.0,5,6,12,North America,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1087,2023-01-02,Enterprise,778.0,214.4,2,7,1,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1088,2024-01-25,Professional,191.45,875.0,0,9,12,LATAM,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1089,2023-02-23,Professional,200.5,48.6,3,6,12,North America,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1090,2023-04-16,Starter,49.84,33.2,3,6,12,LATAM,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1091,2023-09-17,Starter,53.6,25.7,1,8,12,EMEA,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1092,2023-11-06,Starter,51.33,12.1,4,6,1,North America,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1093,2024-04-21,Starter,47.59,12.0,4,6,1,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1094,2023-07-10,Enterprise,763.11,219.9,3,8,12,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1095,2024-02-06,Starter,50.21,41.7,2,7,1,LATAM,Paused,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1096,2023-08-06,Enterprise,746.26,224.4,2,9,1,North America,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1097,2023-02-13,Professional,217.22,52.4,3,6,1,North America,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1098,2023-06-11,Professional,210.74,83.9,3,7,12,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1099,2023-07-21,Professional,194.33,83.2,2,8,1,North America,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1100,2024-03-21,Professional,181.95,22.6,3,7,12,EMEA,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1101,2024-04-28,Professional,212.47,88.6,2,7,24,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1102,2023-09-27,Starter,48.72,22.7,3,7,1,APAC,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1103,2023-12-17,Professional,211.32,107.4,2,7,1,North America,Cancelled,1,Frequent API timeout errors and slow customer support response.
+CUST-1104,2023-10-31,Starter,45.09,43.5,3,8,1,North America,Cancelled,1,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1105,2023-09-28,Starter,47.53,36.3,2,7,12,EMEA,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1106,2024-03-31,Professional,199.05,83.3,0,10,1,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1107,2024-04-06,Starter,49.12,13.9,6,4,1,LATAM,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1108,2023-08-03,Enterprise,781.02,394.4,1,10,1,EMEA,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1109,2023-09-09,Enterprise,823.88,243.6,1,9,12,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1110,2023-07-09,Enterprise,756.35,240.8,2,9,1,EMEA,Paused,0,Frequent API timeout errors and slow customer support response.
+CUST-1111,2023-10-23,Starter,48.65,24.8,1,9,12,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1112,2023-08-01,Starter,49.29,27.0,3,7,24,North America,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1113,2023-07-27,Enterprise,819.55,231.3,3,8,1,LATAM,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1114,2023-08-25,Starter,50.74,19.3,5,4,12,APAC,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1115,2023-12-04,Enterprise,754.07,207.2,2,7,1,LATAM,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1116,2024-01-02,Enterprise,737.71,238.0,2,7,12,EMEA,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1117,2023-02-22,Enterprise,850.04,207.4,2,7,12,EMEA,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1118,2023-10-07,Starter,49.81,17.9,3,6,12,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1119,2024-02-14,Starter,47.17,26.1,7,4,1,North America,Cancelled,1,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1120,2023-08-05,Enterprise,860.97,224.7,0,8,1,APAC,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1121,2023-09-09,Starter,49.28,40.0,4,6,1,North America,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1122,2023-07-07,Starter,51.89,1.0,2,8,1,APAC,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1123,2024-01-15,Professional,199.67,117.3,2,8,1,EMEA,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1124,2024-05-07,Enterprise,881.33,314.8,7,5,1,North America,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1125,2023-02-10,Professional,216.47,38.2,5,6,1,EMEA,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1126,2023-06-06,Professional,196.52,81.4,2,8,1,EMEA,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1127,2023-01-15,Starter,51.38,21.3,0,10,12,North America,Cancelled,1,Frequent API timeout errors and slow customer support response.
+CUST-1128,2023-10-28,Professional,205.42,54.8,2,7,1,APAC,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1129,2023-03-06,Enterprise,853.68,193.3,3,6,1,EMEA,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1130,2023-12-11,Starter,46.64,13.9,2,8,1,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1131,2023-11-23,Professional,205.83,133.8,4,5,1,EMEA,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1132,2023-01-09,Enterprise,841.28,296.1,3,7,24,LATAM,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1133,2023-12-10,Professional,181.5,121.8,2,8,1,North America,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1134,2023-05-09,Professional,187.23,108.0,6,4,12,APAC,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1135,2024-05-06,Professional,178.71,61.8,0,10,24,North America,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1136,2023-05-16,Starter,48.34,19.8,1,8,12,APAC,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1137,2024-04-16,Starter,50.76,29.9,4,5,12,EMEA,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1138,2023-03-04,Enterprise,859.02,166.7,2,8,12,North America,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1139,2023-05-19,Enterprise,801.96,282.8,2,8,24,North America,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1140,2024-05-13,Enterprise,864.06,225.6,3,7,12,APAC,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1141,2023-03-22,Enterprise,743.86,217.5,3,7,12,EMEA,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1142,2024-01-27,Professional,182.05,107.8,1,10,12,EMEA,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1143,2023-06-12,Professional,198.45,101.1,2,9,1,North America,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1144,2024-02-23,Professional,202.82,81.0,1,10,12,APAC,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1145,2023-10-16,Professional,198.67,119.0,3,7,1,EMEA,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1146,2024-01-14,Professional,178.43,63.0,2,8,1,LATAM,Paused,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1147,2023-09-18,Professional,198.11,105.4,5,5,1,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1148,2024-05-04,Enterprise,746.89,275.6,2,9,1,EMEA,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1149,2023-08-19,Starter,50.64,21.9,3,7,1,EMEA,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1150,2023-02-10,Starter,49.9,28.3,3,6,1,North America,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1151,2023-01-28,Starter,46.7,12.5,1,8,12,EMEA,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1152,2023-05-15,Professional,193.89,113.1,3,7,1,North America,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1153,2023-07-20,Starter,46.4,23.2,3,6,12,EMEA,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1154,2023-11-24,Professional,198.38,76.9,0,8,1,EMEA,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1155,2023-09-25,Professional,208.5,116.2,3,8,1,North America,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1156,2024-02-22,Starter,46.58,18.0,4,6,12,EMEA,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1157,2023-02-02,Professional,204.02,54.8,4,6,12,EMEA,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1158,2023-02-17,Starter,47.7,9.4,2,9,1,North America,Cancelled,1,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1159,2024-02-11,Starter,47.06,31.1,3,6,12,LATAM,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1160,2023-03-03,Enterprise,794.72,163.2,1,8,12,LATAM,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1161,2023-08-04,Starter,46.46,42.5,1,9,1,EMEA,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1162,2023-10-20,Starter,47.64,4.2,1,8,1,North America,Cancelled,1,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1163,2023-04-09,Professional,187.08,132.4,0,10,24,APAC,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1164,2023-06-21,Professional,218.55,95.3,1,10,12,EMEA,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1165,2023-12-26,Starter,49.09,24.0,4,6,1,North America,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1166,2023-08-02,Professional,192.04,76.4,2,9,12,EMEA,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1167,2024-04-19,Starter,49.52,29.0,6,6,1,EMEA,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1168,2023-02-04,Starter,48.72,24.6,3,7,1,EMEA,Cancelled,1,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1169,2024-03-24,Professional,196.8,117.6,2,9,1,North America,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1170,2023-08-15,Professional,205.11,92.9,3,8,12,EMEA,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1171,2023-04-11,Professional,206.54,93.8,3,8,12,LATAM,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1172,2024-03-06,Professional,193.72,80.9,3,6,12,North America,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1173,2024-04-06,Enterprise,776.0,236.6,3,7,1,EMEA,Cancelled,1,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1174,2023-05-11,Professional,196.26,97.7,2,8,1,APAC,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1175,2023-09-14,Starter,43.36,7.9,2,8,1,EMEA,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1176,2023-01-05,Professional,183.92,56.3,1,8,12,North America,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1177,2023-08-06,Starter,52.35,32.4,1,8,1,EMEA,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1178,2023-09-12,Starter,53.03,26.7,3,7,1,EMEA,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1179,2024-02-02,Starter,48.39,23.2,4,5,12,APAC,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1180,2023-12-25,Starter,50.41,25.2,4,6,1,EMEA,Cancelled,1,Pricing is too expensive for a small startup on Starter plan.
+CUST-1181,2023-10-10,Enterprise,811.43,260.9,6,4,24,LATAM,Cancelled,1,Frequent API timeout errors and slow customer support response.
+CUST-1182,2024-01-28,Enterprise,922.0,207.6,0,10,1,North America,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1183,2023-07-26,Professional,210.14,70.5,1,10,12,North America,Paused,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1184,2023-01-15,Starter,48.69,27.0,5,5,1,EMEA,Cancelled,1,Pricing is too expensive for a small startup on Starter plan.
+CUST-1185,2023-12-12,Starter,46.66,15.2,5,4,24,North America,Cancelled,1,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1186,2023-02-11,Starter,45.06,29.1,2,7,1,North America,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1187,2024-01-15,Starter,49.5,8.0,1,10,1,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1188,2024-04-05,Professional,191.47,115.7,0,10,1,North America,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1189,2023-06-28,Professional,184.85,101.8,2,7,1,North America,Paused,0,Frequent API timeout errors and slow customer support response.
+CUST-1190,2023-03-04,Professional,192.57,96.4,3,6,1,LATAM,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1191,2023-12-18,Starter,46.35,34.8,1,8,24,North America,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1192,2023-08-19,Enterprise,866.4,339.9,3,6,1,EMEA,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1193,2023-08-29,Professional,207.77,115.4,1,8,12,APAC,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1194,2023-02-21,Professional,198.92,44.0,2,7,12,LATAM,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1195,2023-04-06,Professional,213.73,58.0,1,9,12,North America,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1196,2024-01-23,Starter,49.19,18.8,3,6,1,APAC,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1197,2023-08-10,Starter,46.89,25.3,1,10,1,EMEA,Cancelled,1,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1198,2024-04-29,Starter,52.73,30.2,1,9,12,EMEA,Active,0,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1199,2024-02-11,Professional,204.36,71.9,0,8,24,EMEA,Active,0,Frequent API timeout errors and slow customer support response.
+CUST-1200,2023-08-19,Starter,46.46,26.9,4,7,1,APAC,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1201,2023-08-25,Starter,48.53,17.4,3,7,1,North America,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1202,2023-05-23,Starter,46.85,18.9,2,9,1,EMEA,Paused,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1203,2023-06-20,Starter,45.61,10.9,4,5,24,EMEA,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1204,2023-01-29,Enterprise,836.0,184.6,0,8,1,APAC,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1205,2023-02-05,Professional,218.0,56.2,2,7,1,LATAM,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1206,2023-01-13,Professional,185.08,65.6,2,7,12,North America,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1207,2023-06-09,Starter,50.38,35.5,2,8,1,LATAM,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1208,2023-11-23,Professional,192.53,66.3,5,5,1,North America,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1209,2023-07-06,Professional,194.15,155.8,3,8,12,North America,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1210,2023-08-31,Starter,47.55,29.9,1,8,24,North America,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1211,2023-03-27,Starter,46.88,26.8,3,8,1,North America,Cancelled,1,Pricing is too expensive for a small startup on Starter plan.
+CUST-1212,2023-10-11,Starter,49.12,16.4,6,5,1,EMEA,Cancelled,1,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1213,2023-03-07,Professional,190.73,107.5,2,7,1,North America,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1214,2023-06-19,Professional,201.69,75.6,1,8,1,North America,Cancelled,1,Pricing is too expensive for a small startup on Starter plan.
+CUST-1215,2023-02-14,Starter,48.88,26.2,6,5,12,LATAM,Cancelled,1,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1216,2023-03-03,Starter,48.41,50.6,0,9,1,APAC,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1217,2024-03-16,Professional,189.97,87.6,1,9,1,APAC,Paused,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1218,2023-05-14,Professional,193.26,118.7,3,7,1,APAC,Cancelled,1,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1219,2023-10-11,Enterprise,829.18,197.8,1,9,12,EMEA,Active,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1220,2023-01-28,Professional,203.98,89.1,0,8,1,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1221,2023-04-18,Starter,46.6,42.7,0,9,12,North America,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1222,2023-02-13,Starter,49.24,18.7,0,8,1,EMEA,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1223,2023-12-06,Professional,206.48,135.3,3,6,12,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1224,2023-10-13,Starter,44.91,32.1,3,7,12,EMEA,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1225,2024-03-21,Professional,204.41,75.9,1,9,1,North America,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1226,2023-11-27,Enterprise,772.53,277.9,3,6,1,North America,Cancelled,1,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1227,2023-05-08,Professional,204.68,114.3,1,9,1,EMEA,Cancelled,1,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1228,2023-12-14,Starter,47.13,31.2,3,7,1,EMEA,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1229,2024-04-17,Professional,181.04,50.7,1,9,1,EMEA,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1230,2023-08-19,Professional,182.81,71.8,4,7,1,EMEA,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1231,2023-07-09,Professional,199.48,83.8,5,4,1,North America,Cancelled,1,"Great performance and reliable metric alerts, dev team loves it."
+CUST-1232,2023-08-13,Enterprise,809.38,235.5,3,8,12,North America,Paused,0,"Onboarding was confusing, needs clearer video tutorials and guides."
+CUST-1233,2024-01-20,Starter,46.78,31.2,2,8,1,APAC,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1234,2024-01-12,Enterprise,824.51,250.7,2,9,12,EMEA,Cancelled,1,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1235,2023-10-10,Enterprise,732.62,159.9,3,7,1,North America,Cancelled,1,Frequent API timeout errors and slow customer support response.
+CUST-1236,2024-03-21,Starter,48.84,28.8,3,8,12,APAC,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1237,2023-05-01,Starter,46.03,31.1,6,5,12,North America,Cancelled,1,Pricing is too expensive for a small startup on Starter plan.
+CUST-1238,2023-04-26,Starter,47.4,30.6,4,7,1,EMEA,Active,0,"Missing automated HubSpot integration, had to build custom webhook."
+CUST-1239,2024-04-05,Starter,49.12,35.8,3,8,12,North America,Active,0,Love the clean analytics dashboard and fast SQL exports.
+CUST-1240,2023-08-21,Starter,46.89,33.3,1,10,1,EMEA,Cancelled,1,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1241,2023-09-16,Professional,195.17,101.5,3,6,1,EMEA,Active,0,Lack of SSO and audit logs prevents company-wide enterprise rollout.
+CUST-1242,2023-12-25,Starter,51.47,24.3,5,6,24,North America,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1243,2023-07-17,Starter,47.59,8.4,5,4,1,APAC,Cancelled,1,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1244,2024-03-31,Enterprise,832.39,265.8,1,9,1,North America,Cancelled,1,Love the clean analytics dashboard and fast SQL exports.
+CUST-1245,2024-02-15,Starter,46.23,27.1,3,8,12,North America,Active,0,High churn risk due to lack of advanced ML cohort segmentation.
+CUST-1246,2023-05-17,Enterprise,820.17,256.3,2,8,12,North America,Active,0,"Crucial tool for our weekly growth review, highly recommend."
+CUST-1247,2023-11-14,Starter,52.53,12.2,3,7,12,North America,Active,0,Pricing is too expensive for a small startup on Starter plan.
+CUST-1248,2023-06-14,Starter,42.94,14.2,3,8,1,North America,Active,0,Cancelled subscription due to departmental budget cuts in Q3.
+CUST-1249,2023-08-13,Professional,191.07,116.3,1,8,12,EMEA,Active,0,Frequent API timeout errors and slow customer support response.

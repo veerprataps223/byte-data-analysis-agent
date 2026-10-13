@@ -1,0 +1,21 @@
+# Autonomous Data Analysis Agent - Dependencies
+pandas>=2.0.0
+numpy>=1.23.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+duckdb>=1.0.0
+plotly>=5.15.0
+matplotlib>=3.7.0
+statsmodels>=0.14.0
+pydantic>=2.0.0
+rich>=13.0.0
+flask>=3.0.0
+flask-cors>=4.0.0
+openpyxl>=3.1.0
+
+# LangGraph Orchestration Pipeline
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# Universal client connector for Qwen OpenAI-compatible endpoints (vLLM / Ollama / LM Studio)
+openai>=1.0.0
